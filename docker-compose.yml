@@ -1,0 +1,15 @@
+services:
+  budget-next:
+    container_name: note-trainer
+    image: registry.timo-hermans.nl/note-trainer
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.notetrainer.rule=HOST(`music-note.timo-hermans.nl`)'
+      - 'traefik.http.services.notetrainer.loadbalancer.server.port=3000'
+
+networks:
+  traefik:
+    external: true
