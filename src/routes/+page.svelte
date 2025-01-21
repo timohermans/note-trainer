@@ -221,37 +221,37 @@
 	<div class="flex justify-center gap-2">
 		<button
 			type="button"
-			class="rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class="rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('a')}>a</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('b')}>b</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('c')}>c</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('d')}>d</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('e')}>e</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('f')}>f</button
 		>
 		<button
 			type="button"
-			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
+			class=" rounded border border-solid border-slate-800 p-4 text-slate-800 hover:text-white hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
 			onclick={() => answer('g')}>g</button
 		>
 	</div>
