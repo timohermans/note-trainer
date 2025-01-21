@@ -108,20 +108,20 @@
 		</div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(1, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(1, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(3, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(3, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(5, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(5, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div class="border border-solid border-black dark:border-white"></div>
@@ -131,25 +131,25 @@
 		<div class="border border-solid border-black dark:border-white"></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(6, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(6, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(4, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(4, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(2, 'treble') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(2, 'treble') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		{#if question.type === 'treble'}
 			<div
-				class="whole-note absolute dark:border-white"
+				class="whole-note absolute border-black dark:border-white"
 				style="left:50%; top:-19px;"
 				style:top={question.top}
 			></div>
@@ -164,20 +164,20 @@
 		</div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(1, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(1, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(3, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(3, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showTopBar(5, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showTopBar(5, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div class="border border-solid border-black dark:border-white"></div>
@@ -187,20 +187,20 @@
 		<div class="border border-solid border-black dark:border-white"></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(6, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(6, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(4, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(4, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		<div
 			class={[
-				'mx-auto w-7 border border-solid border-transparent',
-				showBottomBar(2, 'bass') && 'border-black dark:border-white'
+				'mx-auto w-7 border border-solid',
+				showBottomBar(2, 'bass') ? 'border-black dark:border-white' : 'border-transparent'
 			]}
 		></div>
 		{#if question.type === 'bass'}
