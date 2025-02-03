@@ -239,7 +239,7 @@
 		</div>
 	</main>
 
-	<div class="flex justify-center gap-2 landscape:hidden pb-10">
+	<div class="flex justify-center gap-2 landscape:hidden pb-28">
 		<button
 			type="button"
 			class="rounded border border-solid border-slate-800 p-4 text-slate-800 hover:bg-slate-700 dark:border-white dark:text-white dark:hover:bg-slate-700"
